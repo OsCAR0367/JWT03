@@ -105,7 +105,7 @@ export const isModerator = async (req, res, next) => {
  * Middleware para verificar si el usuario tiene el rol de 'admin' o
  * 'moderator'.
  */
-export const isModeratororAdmin = async (req, res, next) => {
+export const isModeratorOrAdmin = async (req, res, next) => {
   try {
     // Buscamos al usuario en la base de datos utilizando el ID
     // almacenado en la solicitud

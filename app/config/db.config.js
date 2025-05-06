@@ -3,7 +3,7 @@ export default {
     USER: "root",
     PASSWORD: "",
     DB: "db",
-    PORT: 3306,
+    PORT: 3308,
     dialect: "mysql",
     pool: {
       max: 5,
